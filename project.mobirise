@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 87,
+    "uniqCompNum": 88,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -357,9 +357,9 @@
           "_name": "header3",
           "_anchor": "header3-2e",
           "_params": {
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": "0",
-            "bgColor": "#efefef",
+            "bgColor": "#e9e9e9",
             "showMeta": false
           },
           "title": "This Process Leads To Results:",
@@ -497,18 +497,18 @@
           ],
           "_anchor": "testimonials1-1q",
           "_params": {
-            "paddingTop": 3,
+            "paddingTop": "0",
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
-            "bgColor": "#ffffff",
+            "bgColor": "#e9e9e9",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": true,
+            "showTitle": false,
+            "showSubtitle": false,
             "count": "2",
             "showImages": false,
             "showName": true,
@@ -731,7 +731,7 @@
           "_params": {
             "tabs": "6",
             "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingBottom": "0",
             "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extTabs1.jpg",
@@ -746,19 +746,32 @@
             "overlayColor": "#151515",
             "showTitles": true
           },
-          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1extTabs1-25\" aria-expanded=\"false\">Hardware</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2extTabs1-25\" aria-expanded=\"true\">Software</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3extTabs1-25\" aria-expanded=\"false\">Data Backup</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4extTabs1-25\" aria-expanded=\"false\">Email Hosting</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5extTabs1-25\" aria-expanded=\"false\">Antivirus</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6extTabs1-25\" aria-expanded=\"false\">Cloud Storage</a></li>",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1extTabs1-25\" aria-expanded=\"true\">Hardware</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2extTabs1-25\" aria-expanded=\"false\">Software</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3extTabs1-25\" aria-expanded=\"false\">Data Backup</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4extTabs1-25\" aria-expanded=\"false\">Email Hosting</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5extTabs1-25\" aria-expanded=\"false\">Antivirus</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6extTabs1-25\" aria-expanded=\"false\">Cloud Storage</a></li>",
           "title1": "Hardware",
-          "text1": "Hardware upgrades, assessments, repairs and replacements.",
+          "text1": "We provide assistance with the procurement, installation and management of all your hardware equipment requirements. We can provide you with full computer systems or new components to replace old ones. Hardware varies and can be anything that is used to create an IT system or network.",
           "title2": "Software",
-          "text2": "Hardware upgrades, assessments, repairs and replacements.",
+          "text2": "We provide assistance with the procurement, installation, set-up and licencing of all your software requirements. For various professions there is specific software that can help a business to function. ",
           "title3": "Data Backup",
-          "text3": "Secure, comprehensive data backup to ensure your data is never lost.",
+          "text3": "Backup of all your data to a secure offsite storage server. In the event of a disaster that your data will be safe, secure and accessible from anywhere with an internet connection.",
           "title4": "Email",
-          "text4": "Reliable fast email hosting for your internal and external emails.",
+          "text4": "A secure, fully backed-up Cloud-based Microsoft Exchange mailbox, with 50GB of storage as standard, which allows users to synchronise and access email “on the go” from devices such as smartphones, tablets, laptops and desktops.",
           "title5": "Antivirus",
-          "text5": "State of the art antivirus protection for your business - keep your business running.",
+          "text5": "We provide protection against the latest threats and we keep our processes and tools regularly updated to ensure your systems remain protected against new potential risks.",
           "title6": "Cloud Storage",
-          "text6": "Cloud storage of all your essential business files - access your files from anywhere."
+          "text6": "An online storage solution for your data and files. A copy of your data is stored in centralised unit which is synced between your desktop PC’s, laptops or mobile devices (including Macs) and is accessible from anywhere you have an internet connection."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-2f",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">View All Products</a> "
         },
         {
           "title2": "Visit our office",
