@@ -703,6 +703,12 @@ h6,
 #extFeatures1-2y .feature-subtitle {
   color: #ffffff;
 }
+#extFeatures1-2y DIV {
+  font-size: 25px;
+}
+#extFeatures1-2y P {
+  font-size: 15px;
+}
 #header3-1i .mbr-section-title,
 #header3-1i .mbr-section-subtitle {
   text-align: center;

@@ -50,6 +50,12 @@
             },
             ".feature-subtitle": {
               "color": "#ffffff"
+            },
+            "DIV": {
+              "font-size": "25px"
+            },
+            "P": {
+              "font-size": "15px"
             }
           },
           "media3": {
@@ -106,7 +112,7 @@
           "subtitle": "Providing IT Support services, solutions and packages throught Norfolk.<br>Offering comprehensive assistance when you need it most.<br><b>We keep your business running.</b><br>",
           "feature_title1": "Problems Solved Fast",
           "feature_subtitle1": "",
-          "feature_text1": "Because we undestand just how important your business is to you, we always endevour to deal with your enquiry swiftly. ",
+          "feature_text1": "Because we undestand just how important your business is to you, we act swiftly. ",
           "media1": {
             "iconFont": {
               "class": "mbr-iconfont-features6",
@@ -120,7 +126,7 @@
           },
           "feature_title2": "Large Team of Experts",
           "feature_subtitle2": "",
-          "feature_text2": "We have a large team of highly qualified experts, ready to take on whatever IT issues you may be affecting your business.",
+          "feature_text2": "We have a large team of highly qualified experts, ready to take on you IT challenges.",
           "media2": {
             "iconFont": {
               "class": "mbr-iconfont-features6",
@@ -156,7 +162,7 @@
           },
           "feature_title4": "No Tie Ins",
           "feature_subtitle4": "",
-          "feature_text4": "There are no long term contracts, so you only pay for the time you require our assistance, and any time you don't use simply rolls-over.",
+          "feature_text4": "There are no long term contracts, so you only pay for the time you need our help.",
           "media5": {
             "iconFont": {
               "class": "mbr-iconfont-features6",
@@ -170,7 +176,7 @@
           },
           "feature_title5": "Competitive Pricing",
           "feature_subtitle5": "",
-          "feature_text5": "Our rates are highly competitve, and because we focus on providing you with good value, we even source everything you need at cost-price."
+          "feature_text5": "Our rates are highly competitve, and we even source what you need at cost-price."
         },
         {
           "_tags": [
