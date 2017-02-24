@@ -609,7 +609,7 @@
             "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/flight-mountains-sky-flying.jpg",
-            "bgColor": "#ffffff",
+            "bgColor": "#e9e9e9",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
