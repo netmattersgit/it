@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 65,
+    "uniqCompNum": 66,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -548,7 +548,7 @@
           },
           "title": "MODERN STYLES",
           "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"index.html#header3-10\" data-toolbar=\"-mbrBtnMove\">See The Results We Get</a>"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"index.html#msg-box3-1c\" data-toolbar=\"-mbrBtnMove\">See The Results We Get</a>"
         },
         {
           "_tags": [
@@ -617,6 +617,19 @@
               "color": "#28324e"
             }
           }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-1t",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#header3-s\" data-toolbar=\"-mbrBtnMove\">What Services Do We Offer?</a> "
         },
         {
           "_styles": {
