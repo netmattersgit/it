@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 66,
+    "uniqCompNum": 87,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -37,263 +37,93 @@
       },
       "components": [
         {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.95rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.029rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#387bc1!important"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".btn": {
-              "font-size": "16px"
-            }
-          },
-          "_name": "menu",
-          "_anchor": "menu-0",
-          "_params": {
-            "bgColor": "#282828",
-            "fontSize": "0.95",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/f-logo-740x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-1i\">Process</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-10\">Results</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-s\" aria-expanded=\"false\">Services</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#extForm4-15\">Get In Touch</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_styles": {
-            "H2": {
-              "font-size": "60px"
-            }
-          },
-          "_params": {
-            "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "timeout": "5",
-            "slides": [
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/glass-time-watch-business-2000x1324.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "Your Calls Answered<br>In 10 Seconds or Less",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"index.html#header3-1i\" data-toolbar=\"-mbrBtnMove\">See How We Work</a>   "
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/istock-2000x1334.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "97% of Support Requests Handled Within 1 Hour",
-                "showText": false,
-                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#header3-1i\" data-toolbar=\"-mbrBtnMove\">See How We Work</a> "
-              },
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/pexels-photo-2000x1334.png",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "74% of Problems<br>Fixed the Same day",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html#header3-1i\" data-toolbar=\"-mbrBtnMove\">See How We Work</a> "
-              }
-            ],
-            "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": true
-          },
-          "_anchor": "slider-a",
-          "articleLayout": false
-        },
-        {
           "alias": "mobirise3-blocks/components",
           "_tags": [
             "Extension"
           ],
-          "_name": "extTestimonials5",
+          "_name": "extHeader3",
+          "_anchor": "extHeader3-29",
           "_params": {
-            "autoplay": false,
-            "timeout": 5,
-            "paddingTop": "2",
-            "paddingBottom": "0",
-            "slides": [
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/draytekdealer-162x74.png",
-                    "link": "https://mobirise.com",
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                }
-              },
-              {
-                "active": true,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/f50-115x183.png",
-                    "link": "https://mobirise.com",
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                }
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/iso-140x162.jpg",
-                    "link": "https://mobirise.com",
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                }
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/micro-logo-170x102.png",
-                    "link": "https://mobirise.com",
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                }
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/silver-eset-196x79.png",
-                    "link": "https://mobirise.com",
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                }
-              }
-            ],
+            "iconsColor": "#fff",
             "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/flight-mountains-sky-flying.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-extheader3-bg.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
+            "overlay": true,
+            "overlayOpacity": "0.6",
             "overlayColor": "#000",
-            "showTitle": false,
-            "showSubtitle": false,
-            "showBullets": false,
-            "visibleSlides": "5",
-            "showArrows": true
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showIcons": true,
+            "showTitles": true,
+            "showArrow": true
           },
-          "_anchor": "extTestimonials5-19",
-          "title": "",
-          "subtitle": "\"Our clients\" carousel with adjustabsale number of visible clients."
+          "title": "Professional IT Support",
+          "text": "Providing IT Support services, solutions and packages throught Norfolk. Offering comprehensive assistance when you need it most. We keep your business running.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Get In Touch</a>",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "clock",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#e6e6e6"
+            }
+          },
+          "title1": "Problems Solved Fast",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "users",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#e6e6e6"
+            }
+          },
+          "title2": "Large Team of Experts",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "bookmark",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#e6e6e6"
+            }
+          },
+          "title3": "Flexible Contracts",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "sale",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#e6e6e6"
+            }
+          },
+          "title4": "Competitive Pricing",
+          "_styles": {
+            "H5": {
+              "font-size": "16px"
+            }
+          }
         },
         {
           "_styles": {
@@ -309,7 +139,7 @@
           "_params": {
             "paddingTop": "7",
             "paddingBottom": 1,
-            "bgColor": "#fff",
+            "bgColor": "#ffffff",
             "showMeta": true
           },
           "title": "Our Process is Simple &amp; Effective",
@@ -516,39 +346,119 @@
           }
         },
         {
-          "_inherit": "msg-box8",
           "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#000"
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
             }
           },
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-1c",
+          "_name": "header3",
+          "_anchor": "header3-2e",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "2",
-            "parallax": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#efefef",
+            "showMeta": false
+          },
+          "title": "This Process Leads To Results:",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extCounters3",
+          "_anchor": "extCounters3-2d",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "bgColor": "#ffffff",
+            "parallax": true,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFeatures5_bg.jpg",
+            "bgColor": "#e9e9e9",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
+            "overlay": true,
+            "overlayOpacity": 0.6,
             "overlayColor": "#222",
-            "showTitle": false,
-            "showText": false,
-            "showButton": true
+            "columns": "4",
+            "showIcons": true,
+            "showTitles": true,
+            "showTexts": false
           },
-          "title": "MODERN STYLES",
-          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"index.html#msg-box3-1c\" data-toolbar=\"-mbrBtnMove\">See The Results We Get</a>"
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extCounters3",
+              "name": "layers",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ccc",
+              "family": "et-line"
+            }
+          },
+          "number1": "99%",
+          "title1": "<span style=\"font-weight: normal;\">Server Uptime ensuring </span><br>business reliability.",
+          "text1": "Our fast and reliable servers ensure your business stays connected.",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extCounters3",
+              "name": "expand",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ccc",
+              "family": "et-line"
+            }
+          },
+          "number2": "97%",
+          "title2": "<span style=\"font-weight: normal;\">Of requests - progressed within</span> the hour.",
+          "text2": "If you request support, we'll make sure your ticket is progressed within the hour",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-extCounters3",
+              "linkInNewWindow": false,
+              "name": "success",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ccc"
+            }
+          },
+          "number3": "74%",
+          "title3": "<span style=\"font-weight: normal;\">Of your problems - solved the</span> same day.",
+          "text3": "If your problem can be solved the same day, we'll solve it - same day.",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-extCounters3",
+              "linkInNewWindow": false,
+              "name": "clock",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ccc"
+            }
+          },
+          "number4": "10",
+          "title4": "<span style=\"font-weight: normal;\">Seconds or less to answer </span><br>your calls - every time.",
+          "text4": "Your calls answered in 10 seconds or less - every time you call.",
+          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding extCounters3 counters\" style=\"background-color: rgb(233, 233, 233); padding-top: 120px; padding-bottom: 120px;\">\n\n    \n  <div class=\"container\">\n        <div class=\"row\">\n\n            <div class=\"content col-xs-12 col-md-3\">\n                <div><a href=\"https://mobirise.com\" class=\"etl-icon icon-layers mbr-iconfont mbr-iconfont-extCounters3\" style=\"color: rgb(204, 204, 204);\"></a></div>\n\n                <span class=\"count mbr-editable-content\" code-editable-id=\"155\">99%</span>\n                <div class=\"delimiter\"></div>\n                <h2 class=\"counter-title mbr-editable-content\" code-editable-id=\"156\"><span style=\"font-weight: normal;\">Server Uptime ensuring </span><br>business reliability.</h2>\n                \n\n            </div>\n\n            <div class=\"content col-xs-12 col-md-3\">\n                <div><a href=\"https://mobirise.com\" class=\"etl-icon icon-expand mbr-iconfont mbr-iconfont-extCounters3\" style=\"color: rgb(204, 204, 204);\"></a></div>\n                <span class=\"count mbr-editable-content\" code-editable-id=\"157\">97%</span>\n                <div class=\"delimiter\"></div>\n                <h2 class=\"counter-title mbr-editable-content\" code-editable-id=\"158\"><span style=\"font-weight: normal;\">Of requests - progressed within</span> the hour.</h2>\n                \n            </div>\n\n            <div class=\"content col-xs-12 col-md-3\">\n                <div><a href=\"https://mobirise.com\" class=\"mbri-success mbr-iconfont mbr-iconfont-extCounters3\" style=\"color: rgb(204, 204, 204);\"></a></div>\n                <span class=\"count mbr-editable-content\" code-editable-id=\"159\">74%</span>\n                <div class=\"delimiter\"></div>\n                <h2 class=\"counter-title mbr-editable-content\" code-editable-id=\"160\"><span style=\"font-weight: normal;\">Of your problems - solved the</span> same day.</h2>\n                \n            </div>\n\n            <div class=\"content col-xs-12 col-md-3\">\n                <div><a href=\"https://mobirise.com\" class=\"mbri-clock mbr-iconfont mbr-iconfont-extCounters3\" style=\"color: rgb(204, 204, 204);\"></a></div>\n                <span class=\"count mbr-editable-content\" code-editable-id=\"161\">10</span>\n                <div class=\"delimiter\"></div>\n                <h2 class=\"counter-title mbr-editable-content\" code-editable-id=\"162\"><span style=\"font-weight: normal;\">Seconds or less to answer </span><br>your calls - every time.</h2>\n                \n            </div>\n\n        </div>\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".count .mbr-editable-content:after {\n    content:\"%\"\n}",
+          "_customTemplate": true
         },
         {
           "_tags": [
@@ -592,7 +502,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
-            "bgColor": "#efefef",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -604,7 +514,7 @@
             "showName": true,
             "showBio": true
           },
-          "title": "Our results speak for themselves&nbsp;",
+          "title": "Our Process Gets Results",
           "subtitle": "We've established ourselves as leading IT support providers in Norfolk.",
           "_styles": {
             ".card-block P": {
@@ -619,272 +529,236 @@
           }
         },
         {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-1t",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#efefef"
-          },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#header3-s\" data-toolbar=\"-mbrBtnMove\">What Services Do We Offer?</a> "
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "color": "#000000"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-s",
-          "_params": {
-            "paddingTop": "6",
-            "paddingBottom": 1,
-            "bgColor": "#ffffff",
-            "showMeta": false
-          },
-          "title": "Our wide range of services at your disposal",
-          "meta": "By John Smith posted July 20, 2016"
-        },
-        {
           "alias": "mobirise3-blocks/components",
           "_tags": [
             "Extension"
           ],
-          "_name": "extFeatures3",
-          "_anchor": "extFeatures3-1d",
+          "_name": "extTestimonials5",
           "_params": {
-            "iconsBgColor": "@primaryColor",
+            "autoplay": false,
+            "timeout": 5,
             "paddingTop": "0",
             "paddingBottom": "0",
+            "slides": [
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/draytekdealer-162x74.png",
+                    "link": "https://mobirise.com",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": true,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/f50-115x183.png",
+                    "link": "https://mobirise.com",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/iso-140x162.jpg",
+                    "link": "https://mobirise.com",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/micro-logo-170x102.png",
+                    "link": "https://mobirise.com",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/silver-eset-196x79.png",
+                    "link": "https://mobirise.com",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              }
+            ],
+            "parallax": false,
             "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFeatures3_bg.jpg",
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/flight-mountains-sky-flying.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#222",
-            "columns": "4",
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": true
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": false,
+            "showSubtitle": true,
+            "showBullets": false,
+            "visibleSlides": "5",
+            "showArrows": true
           },
-          "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "linkInNewWindow": false,
-              "name": "browse",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#c39f76"
-            }
-          },
-          "title1": "Software",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Software updates, replacements, installation and repairs as well as recommendations.&nbsp;",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media2": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "linkInNewWindow": false,
-              "name": "desktop",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#c39f76"
-            }
-          },
-          "title2": "Hardware",
-          "subtitle2": "One of Bootstrap 4s big points",
-          "caption2": "Hardware upgrades, assessments, repairs and replacements.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media3": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "linkInNewWindow": false,
-              "name": "windows",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#c39f76"
-            }
-          },
-          "title3": "Office 365",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Installation and maintenance of Microsoft's state of the art Office 365 suite.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media4": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "linkInNewWindow": false,
-              "name": "opened-folder",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#c39f76"
-            }
-          },
-          "title4": "Data Backup",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Secure, comprehensive data backup to ensure your data is never lost.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_anchor": "extTestimonials5-19",
+          "title": "",
+          "subtitle": "Working with a host of providers to bring these incredible results to your business"
+        },
+        {
           "_styles": {
-            ".mbr-iconfont-features4": {
-              "color": "@primaryColor !important"
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
             },
-            ".wraper": {
-              "border-color": "@primaryColor !important"
+            ".navbar-caption": {
+              "color": "#ffffff"
             },
-            "P": {
-              "color": "#28324e",
-              "text-align": "center"
+            ".navbar-toggler": {
+              "color": "#ffffff"
             },
-            "H4": {
-              "color": "#000000"
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.95rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.029rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#387bc1!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".btn": {
+              "font-size": "16px"
             }
-          }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": "0.95",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/f-logo-740x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-1i\">Process</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-10\">Results</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-s\" aria-expanded=\"false\">Services</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#extForm4-15\">Get In Touch</a></li>"
         },
         {
           "alias": "mobirise3-blocks/components",
           "_tags": [
             "Extension"
           ],
-          "_name": "extFeatures3",
-          "_anchor": "extFeatures3-1e",
+          "_name": "extTabs1",
+          "_anchor": "extTabs1-25",
           "_params": {
-            "iconsBgColor": "@primaryColor",
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "tabs": "6",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
             "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFeatures3_bg.jpg",
-            "bgColor": "#ffffff",
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extTabs1.jpg",
+            "bgColor": "#fff",
             "bgColorRadio": true,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#000000",
-            "columns": "4",
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": true
+            "overlayOpacity": 0.2,
+            "overlayColor": "#151515",
+            "showTitles": true
           },
-          "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "linkInNewWindow": false,
-              "name": "letter",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#c39f76"
-            }
-          },
-          "title1": "Email Hosting",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Reliable fast email hosting for your internal and external emails.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media2": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "linkInNewWindow": false,
-              "name": "protect",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#c39f76"
-            }
-          },
-          "title2": "Antivirus",
-          "subtitle2": "One of Bootstrap 4s big points",
-          "caption2": "State of the art antivirus protection for your business - keep your business running.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media3": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "linkInNewWindow": false,
-              "name": "cloud",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#c39f76"
-            }
-          },
-          "title3": "Cloud Storage",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Cloud storage of all your essential business files - access your files from anywhere.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media4": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "linkInNewWindow": false,
-              "name": "home",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#c39f76"
-            }
-          },
-          "title4": "Disaster Recovery",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "If all else fails, you can use our modern Disaster Recovery Suite to keep your business operating.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            ".mbr-iconfont-features4": {
-              "color": "@primaryColor !important"
-            },
-            ".wraper": {
-              "border-color": "@primaryColor !important"
-            },
-            "H4": {
-              "color": "#000000"
-            },
-            "P": {
-              "color": "#28324e"
-            }
-          }
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-1k",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#extForm4-15\" data-toolbar=\"-mbrBtnMove\">Get In Touch</a> "
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1extTabs1-25\" aria-expanded=\"false\">Hardware</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2extTabs1-25\" aria-expanded=\"true\">Software</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3extTabs1-25\" aria-expanded=\"false\">Data Backup</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4extTabs1-25\" aria-expanded=\"false\">Email Hosting</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5extTabs1-25\" aria-expanded=\"false\">Antivirus</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6extTabs1-25\" aria-expanded=\"false\">Cloud Storage</a></li>",
+          "title1": "Hardware",
+          "text1": "Hardware upgrades, assessments, repairs and replacements.",
+          "title2": "Software",
+          "text2": "Hardware upgrades, assessments, repairs and replacements.",
+          "title3": "Data Backup",
+          "text3": "Secure, comprehensive data backup to ensure your data is never lost.",
+          "title4": "Email",
+          "text4": "Reliable fast email hosting for your internal and external emails.",
+          "title5": "Antivirus",
+          "text5": "State of the art antivirus protection for your business - keep your business running.",
+          "title6": "Cloud Storage",
+          "text6": "Cloud storage of all your essential business files - access your files from anywhere."
         },
         {
           "title2": "Visit our office",
