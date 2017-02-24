@@ -22,8 +22,12 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 95,
-    "versionPublish": "3.12.1"
+    "uniqCompNum": 108,
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": ""
   },
   "pages": {
     "index.html": {
@@ -37,93 +41,149 @@
       },
       "components": [
         {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff"
+            },
+            ".feature-subtitle": {
+              "color": "#ffffff"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "desktop",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "linegraph",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "feature_title3": "Translation ready",
+          "feature_subtitle3": "Find a common language with anyone",
+          "feature_text3": "Donec felis leo, placerat et porttitor, fermentum ut nunc. Integer consequat pretium tempor. Fusce aliquam libero quis dui dictum.",
+          "feature_title6": "Awesome parallax",
+          "feature_subtitle6": "Enjoy smooth bg sliding on scroll",
+          "feature_text6": "Donec felis leo, placerat et porttitor, fermentum ut nunc. Integer consequat pretium tempor. Fusce aliquam libero quis dui dictum.",
           "alias": "mobirise3-blocks/components",
           "_tags": [
             "Extension"
           ],
-          "_name": "extHeader3",
-          "_styles": {
-            "H5": {
-              "font-size": "16px"
-            }
-          },
-          "_anchor": "extHeader3-29",
+          "_name": "extFeatures1",
+          "_anchor": "extFeatures1-2y",
           "_params": {
-            "iconsColor": "#fff",
-            "parallax": false,
+            "paddingTop": "4",
+            "paddingBottom": "4",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/img-extheader3-bg.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/it-room-2000x1500.jpg",
+            "bgColor": "#303030",
             "bgColorRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#000",
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
             "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showIcons": true,
-            "showTitles": true,
-            "showArrow": true
+            "showSubtitle": true
           },
           "title": "Professional IT Support",
-          "text": "Providing IT Support services, solutions and packages throught Norfolk. Offering comprehensive assistance when you need it most. <b>We keep your business running.</b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#header3-1i\" data-toolbar=\"-mbrBtnMove\">See Our Process</a>",
+          "subtitle": "Providing IT Support services, solutions and packages throught Norfolk.<br>Offering comprehensive assistance when you need it most.<br><b>We keep your business running.</b><br>",
+          "feature_title1": "Problems Solved Fast",
+          "feature_subtitle1": "",
+          "feature_text1": "Because we undestand just how important your business is to you, we always endevour to deal with your enquiry swiftly. ",
           "media1": {
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
+              "class": "mbr-iconfont-features6",
               "linkInNewWindow": false,
               "name": "clock",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
               "size": 0,
-              "color": "#e6e6e6"
+              "color": "#ffffff"
             }
           },
-          "title1": "Problems Solved Fast",
+          "feature_title2": "Large Team of Experts",
+          "feature_subtitle2": "",
+          "feature_text2": "We have a large team of highly qualified experts, ready to take on whatever IT issues you may be affecting your business.",
           "media2": {
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
+              "class": "mbr-iconfont-features6",
               "linkInNewWindow": false,
-              "name": "users",
-              "family": "MobiriseIcons",
+              "name": "group-1",
+              "family": "icon54-v2",
               "active": true,
-              "link": "https://mobirise.com",
               "size": 0,
-              "color": "#e6e6e6"
+              "color": "#ffffff"
             }
           },
-          "title2": "Large Team of Experts",
-          "media3": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "linkInNewWindow": false,
-              "name": "bookmark",
-              "family": "MobiriseIcons",
+          "media": {
+            "image": {
+              "class": "central-image",
+              "src": "@PROJECT_PATH@/assets/images/laptop-600x381.png",
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#e6e6e6"
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
-          "title3": "Flexible Contracts",
           "media4": {
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
+              "class": "mbr-iconfont-features6",
               "linkInNewWindow": false,
-              "name": "sale",
+              "name": "edit",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
               "size": 0,
-              "color": "#e6e6e6"
+              "color": "#ffffff"
             }
           },
-          "title4": "Competitive Pricing"
+          "feature_title4": "No Tie Ins",
+          "feature_subtitle4": "",
+          "feature_text4": "There are no long term contracts, so you only pay for the time you require our assistance, and any time you don't use simply rolls-over.",
+          "media5": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "tag-1",
+              "family": "icon54",
+              "active": true,
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "feature_title5": "Competitive Pricing",
+          "feature_subtitle5": "",
+          "feature_text5": "Our rates are highly competitve, and because we focus on providing you with good value, we even source everything you need at cost-price."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-2w",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColor": "#202022"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-down-8 mbr-iconfont mbr-iconfont-btn\"></span>See Our Process</a> "
         },
         {
           "_styles": {
@@ -197,10 +257,10 @@
             }
           },
           "title1": "Assess",
-          "text1": "We take a detailed comprehensive look at your IT infrastructure - detailing everything from hardware and software to data backup and antivirus. With this information we create a plan to fix weakensses and strengthen where needed.",
+          "text1": "<span style=\"font-style: normal;\">We take a detailed&nbsp;<b>look at your current IT infrastructure </b>- detailing everything from hardware and software to data backup and antivirus. With this information we <b>create a plan</b> to fix weakensses and strengthen where needed.</span>",
           "date2": "2 Ferbuary 2016",
           "title2": "Implement",
-          "text2": "Once we have a detailed plan of how to enhance your IT systems and infrastrcutre - our large team of experts get to work to implement this plan. Working closely with you we install, update and upgrade your IT systems.",
+          "text2": "<b>Once we have a detailed plan of how to enhance your IT systems and infrastrcutre - our large team of experts get to work to implement this plan. Working closely with you we install, update and upgrade your IT systems.</b>",
           "media2": {
             "iconFont": {
               "class": "mbr-iconfont-features6",
@@ -225,7 +285,7 @@
             }
           },
           "title3": "Monitor &amp; Support",
-          "text3": "Once all of the work has been done, we start again. Taking another look at your IT needs - addressing new needs and requirements - carrying out ongoing support and working with you to enhance your IT systems further.",
+          "text3": "<b>Once all of the work has been done, we start again. Taking another look at your IT needs - addressing new needs and requirements - carrying out ongoing support and working with you to enhance your IT systems further.</b>",
           "date4": "4 April 2016",
           "title4": "4. Design out of the box",
           "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
@@ -356,7 +416,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#header3-2e\" data-toolbar=\"-mbrBtnMove\">See The Results</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#header3-2e\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-down-8 mbr-iconfont mbr-iconfont-btn\"></span>See The Results</a> "
         },
         {
           "_styles": {
@@ -542,106 +602,6 @@
           "subtitle": "We've established ourselves as leading IT support providers in Norfolk."
         },
         {
-          "alias": "mobirise3-blocks/components",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "extTestimonials5",
-          "_params": {
-            "autoplay": false,
-            "timeout": 5,
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "slides": [
-              {
-                "active": true,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/draytekdealer-162x74.png",
-                    "link": "https://mobirise.com",
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                }
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/f50-115x183.png",
-                    "link": "https://mobirise.com",
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                }
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/iso-140x162.jpg",
-                    "link": "https://mobirise.com",
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                }
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/micro-logo-170x102.png",
-                    "link": "https://mobirise.com",
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                }
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/silver-eset-196x79.png",
-                    "link": "https://mobirise.com",
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                }
-              }
-            ],
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/flight-mountains-sky-flying.jpg",
-            "bgColor": "#e9e9e9",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "showTitle": false,
-            "showSubtitle": true,
-            "showBullets": false,
-            "visibleSlides": "5",
-            "showArrows": true
-          },
-          "_anchor": "extTestimonials5-19",
-          "title": "",
-          "subtitle": "Working with a host of providers to bring these incredible results to your business"
-        },
-        {
           "_tags": [
             "Theme"
           ],
@@ -652,7 +612,7 @@
             "paddingBottom": 1,
             "bgColor": "#e9e9e9"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#header3-2m\" data-toolbar=\"-mbrBtnMove\">See Our Services</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#header3-2m\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-down-8 mbr-iconfont mbr-iconfont-btn\"></span>See Our Services</a> "
         },
         {
           "_styles": {
@@ -731,7 +691,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/f-logo-740x128.png",
+              "src": "@PROJECT_PATH@/assets/images/nm-it-logo-740x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -895,7 +855,7 @@
           "text1": "<p>We provide assistance with the procurement, installation and management of all your hardware equipment requirements. We can provide you with full computer systems or new components to replace old ones. Hardware varies and can be anything that is used to create an IT system or network.</p>",
           "title2": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#extAccordion2-2g\" data-core=\"\" href=\"#collapseTwoextAccordion2-2g\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Software</a>",
           "text2": "<p>We provide assistance with the procurement, installation, set-up and licencing of all your software requirements. For various professions there is specific software that can help a business to function.&nbsp;</p>",
-          "title3": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#extAccordion2-2g\" data-core=\"\" href=\"#collapseThreeextAccordion2-2g\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Data Backup</a>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#extAccordion2-2g\" data-core=\"\" href=\"#collapseThreeextAccordion2-2g\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Data Backup</a>",
           "text3": "<p>Backup of all your data to a secure offsite storage server. In the event of a disaster that your data will be safe, secure and accessible from anywhere with an internet connection.</p>",
           "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#extAccordion2-2g\" data-core=\"\" href=\"#collapseFourextAccordion2-2g\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Email Hosting</a>",
           "text4": "A secure, fully backed-up Cloud-based Microsoft Exchange mailbox, with 50GB of storage as standard, which allows users to synchronise and access email “on the go” from devices such as smartphones, tablets, laptops and desktops.",
@@ -934,7 +894,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#extForm3-2l\" data-toolbar=\"-mbrBtnMove\">Get In Touch</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#extForm3-2l\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-down-8 mbr-iconfont mbr-iconfont-btn\"></span>Get In Touch</a> "
         },
         {
           "alias": "mobirise3-blocks/components",
@@ -1016,6 +976,106 @@
             }
           },
           "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SEND MESSAGE</a>"
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTestimonials5",
+          "_params": {
+            "autoplay": false,
+            "timeout": 5,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "slides": [
+              {
+                "active": true,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/draytekdealer-162x74.png",
+                    "link": "https://mobirise.com",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/f50-115x183.png",
+                    "link": "https://mobirise.com",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/iso-140x162.jpg",
+                    "link": "https://mobirise.com",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/micro-logo-170x102.png",
+                    "link": "https://mobirise.com",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/silver-eset-196x79.png",
+                    "link": "https://mobirise.com",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              }
+            ],
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/flight-mountains-sky-flying.jpg",
+            "bgColor": "#e9e9e9",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": false,
+            "showSubtitle": true,
+            "showBullets": false,
+            "visibleSlides": "5",
+            "showArrows": true
+          },
+          "_anchor": "extTestimonials5-19",
+          "title": "",
+          "subtitle": "Working with a host of providers to bring these incredible results to your business"
         },
         {
           "_tags": [

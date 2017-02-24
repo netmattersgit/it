@@ -694,8 +694,14 @@ h6,
 .theme-border {
   border: 1px solid #387bc1;
 }
-#extHeader3-29 H5 {
-  font-size: 16px;
+#extFeatures1-2y .mbr-section-title {
+  color: #fff;
+}
+#extFeatures1-2y .mbr-section-subtitle {
+  color: #ffffff;
+}
+#extFeatures1-2y .feature-subtitle {
+  color: #ffffff;
 }
 #header3-1i .mbr-section-title,
 #header3-1i .mbr-section-subtitle {
