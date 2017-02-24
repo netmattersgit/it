@@ -793,9 +793,10 @@ h6,
 #menu-0 .btn {
   font-size: 16px;
 }
+#header3-2m .mbr-section-title,
+#header3-2m .mbr-section-subtitle {
+  text-align: center;
+}
 #extFeatures6-2i .card-img {
   background-color: #387bc1 !important;
-}
-#extForm4-15 P {
-  text-align: center;
 }
