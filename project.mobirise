@@ -934,7 +934,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">View All Products</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#extForm3-2l\" data-toolbar=\"-mbrBtnMove\">Get In Touch</a> "
         },
         {
           "alias": "mobirise3-blocks/components",
