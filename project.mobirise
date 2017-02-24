@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 63,
+    "uniqCompNum": 65,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -557,7 +557,7 @@
           "_name": "testimonials1",
           "testimonial": [
             {
-              "text": "<p><b>IT SUPPORT</b></p><p><b>dksfhjadsfgfjkhasdfgjkasdf</b></p><p><b>sad</b></p><p><b>gfasd</b></p><p><b>fgsdag</b></p>",
+              "text": "<p><b>IT Support</b></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">Hardware and software upgrades, replacements and updates. Providing up to date, comprehensive antivirus solutions for all computers.&nbsp;</span><br></p>",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face3.jpg",
@@ -571,7 +571,7 @@
               "authorBio": "Plumbing &amp; Drainage Engineers<br>"
             },
             {
-              "text": "<p><b>Disaster Recovery</b></p><p><b>Lkjnhfgjksdf</b></p>",
+              "text": "<b>Disaster Recovery</b><div><span style=\"font-size: 1.125rem; line-height: 2;\">Exclusive use of our state of the art disaster recovery suite to ensure uptime of their business while unable to operate in their own offices.</span></div>",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face1.jpg",
@@ -605,7 +605,18 @@
             "showBio": true
           },
           "title": "Our results speak for themselves&nbsp;",
-          "subtitle": "We've established ourselve"
+          "subtitle": "We've established ourselves as leading IT support providers in Norfolk.",
+          "_styles": {
+            ".card-block P": {
+              "color": "#28324e"
+            },
+            ".card-block DIV": {
+              "color": "#28324e"
+            },
+            ".card-block B": {
+              "color": "#28324e"
+            }
+          }
         },
         {
           "_styles": {
@@ -674,7 +685,7 @@
           },
           "title1": "Software",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "caption1": "Software updates, replacements, installation and repairs as well as recommendations.&nbsp;",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "iconFont": {
@@ -690,7 +701,7 @@
           },
           "title2": "Hardware",
           "subtitle2": "One of Bootstrap 4s big points",
-          "caption2": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.",
+          "caption2": "Hardware upgrades, assessments, repairs and replacements.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "iconFont": {
@@ -706,7 +717,7 @@
           },
           "title3": "Office 365",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "caption3": "Installation and maintenance of Microsoft's state of the art Office 365 suite.",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -722,7 +733,7 @@
           },
           "title4": "Data Backup",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "caption4": "Secure, comprehensive data backup to ensure your data is never lost.",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_styles": {
             ".mbr-iconfont-features4": {
@@ -732,7 +743,8 @@
               "border-color": "@primaryColor !important"
             },
             "P": {
-              "color": "#28324e"
+              "color": "#28324e",
+              "text-align": "center"
             },
             "H4": {
               "color": "#000000"
@@ -783,7 +795,7 @@
           },
           "title1": "Email Hosting",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "caption1": "Reliable fast email hosting for your internal and external emails.",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "iconFont": {
@@ -799,7 +811,7 @@
           },
           "title2": "Antivirus",
           "subtitle2": "One of Bootstrap 4s big points",
-          "caption2": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.",
+          "caption2": "State of the art antivirus protection for your business - keep your business running.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "iconFont": {
@@ -815,7 +827,7 @@
           },
           "title3": "Cloud Storage",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "caption3": "Cloud storage of all your essential business files - access your files from anywhere.",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -831,7 +843,7 @@
           },
           "title4": "Disaster Recovery",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "caption4": "If all else fails, you can use our modern Disaster Recovery Suite to keep your business operating.",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_styles": {
             ".mbr-iconfont-features4": {
