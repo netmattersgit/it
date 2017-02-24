@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 88,
+    "uniqCompNum": 91,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -42,6 +42,11 @@
             "Extension"
           ],
           "_name": "extHeader3",
+          "_styles": {
+            "H5": {
+              "font-size": "16px"
+            }
+          },
           "_anchor": "extHeader3-29",
           "_params": {
             "iconsColor": "#fff",
@@ -65,7 +70,7 @@
             "showArrow": true
           },
           "title": "Professional IT Support",
-          "text": "Providing IT Support services, solutions and packages throught Norfolk. Offering comprehensive assistance when you need it most. We keep your business running.",
+          "text": "Providing IT Support services, solutions and packages throught Norfolk. Offering comprehensive assistance when you need it most. <b>We keep your business running.</b>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Get In Touch</a>",
           "media1": {
             "iconFont": {
@@ -118,12 +123,7 @@
               "color": "#e6e6e6"
             }
           },
-          "title4": "Competitive Pricing",
-          "_styles": {
-            "H5": {
-              "font-size": "16px"
-            }
-          }
+          "title4": "Competitive Pricing"
         },
         {
           "_styles": {
@@ -151,6 +151,15 @@
             "Extension"
           ],
           "_name": "extFeatures13",
+          "_styles": {
+            ".etl-icon": {
+              "color": "#2969b0"
+            },
+            "P": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            }
+          },
           "_anchor": "extFeatures13-1h",
           "_params": {
             "iconsColor": "#2969b0",
@@ -334,16 +343,7 @@
               "family": "et-line"
             }
           },
-          "bottomTitle": "",
-          "_styles": {
-            ".etl-icon": {
-              "color": "#2969b0"
-            },
-            "P": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
-            }
-          }
+          "bottomTitle": ""
         },
         {
           "_styles": {
@@ -375,26 +375,25 @@
             "Extension"
           ],
           "_name": "extCounters3",
-          "_anchor": "extCounters3-2d",
           "_params": {
+            "showIcons": true,
+            "showTitles": true,
+            "showTexts": false,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "columns": "4",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFeatures5_bg.jpg",
-            "bgColor": "#e9e9e9",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#e9e9e9",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.6,
             "overlayColor": "#222",
-            "columns": "4",
-            "showIcons": true,
-            "showTitles": true,
-            "showTexts": false
+            "overlayOpacity": 0.6
           },
           "media1": {
             "iconFont": {
@@ -458,13 +457,25 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": ".count .mbr-editable-content:after {\n    content:\"%\"\n}",
-          "_customTemplate": true
+          "_customTemplate": true,
+          "_anchor": "extCounters3-2d"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "testimonials1",
+          "_styles": {
+            ".card-block P": {
+              "color": "#28324e"
+            },
+            ".card-block DIV": {
+              "color": "#28324e"
+            },
+            ".card-block B": {
+              "color": "#28324e"
+            }
+          },
           "testimonial": [
             {
               "text": "<p><b>IT Support</b></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">Hardware and software upgrades, replacements and updates. Providing up to date, comprehensive antivirus solutions for all computers.&nbsp;</span><br></p>",
@@ -499,6 +510,10 @@
           "_params": {
             "paddingTop": "0",
             "paddingBottom": 3,
+            "count": "2",
+            "showImages": false,
+            "showName": true,
+            "showBio": true,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
@@ -508,25 +523,10 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "showTitle": false,
-            "showSubtitle": false,
-            "count": "2",
-            "showImages": false,
-            "showName": true,
-            "showBio": true
+            "showSubtitle": false
           },
           "title": "Our Process Gets Results",
-          "subtitle": "We've established ourselves as leading IT support providers in Norfolk.",
-          "_styles": {
-            ".card-block P": {
-              "color": "#28324e"
-            },
-            ".card-block DIV": {
-              "color": "#28324e"
-            },
-            ".card-block B": {
-              "color": "#28324e"
-            }
-          }
+          "subtitle": "We've established ourselves as leading IT support providers in Norfolk."
         },
         {
           "alias": "mobirise3-blocks/components",
@@ -726,15 +726,113 @@
           "_tags": [
             "Extension"
           ],
-          "_name": "extTabs1",
-          "_anchor": "extTabs1-25",
+          "_name": "extFeatures6",
+          "_styles": {
+            ".card-img": {
+              "background-color": "@primaryColor !important"
+            }
+          },
+          "_anchor": "extFeatures6-2i",
           "_params": {
+            "iconsColorBG": "@primaryColor",
+            "paddingTop": 3,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/extFeatures3/images/img_extFeatures6_bg.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.6,
+            "overlayColor": "#222",
+            "columns": 3,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": true,
+            "showImages": true
+          },
+          "title1": "Support",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "We Provide ongoing support and assistance for all your IT infrastructure problems. We're always available to help keep your business running. &nbsp;",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "layers",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "et-line"
+            }
+          },
+          "title2": "Solutions",
+          "subtitle2": "One of Bootstrap 4s big points",
+          "caption2": "Our foward thinking and innovative IT Support team are always looking to not only solve your problems - but to pioneer solutions for the future.<br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "expand",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "et-line"
+            }
+          },
+          "title3": "Strategy",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "We can give advice on long-term planning, budgeting and project management. All with the aim of streamlining your IT infrastructure.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "pencil",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "et-line"
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "compass",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "et-line"
+            }
+          }
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extAccordion2",
+          "_anchor": "extAccordion2-2g",
+          "_params": {
+            "collapseAll": true,
             "tabs": "6",
+            "imageSize": "49",
             "paddingTop": 2,
-            "paddingBottom": "0",
+            "paddingBottom": 2,
             "parallax": false,
             "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extTabs1.jpg",
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extAccordion1_bg.jpg",
             "bgColor": "#fff",
             "bgColorRadio": true,
             "bgVideo": {
@@ -742,23 +840,42 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.2,
+            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
-            "showTitles": true
+            "showTitle": true
           },
-          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1extTabs1-25\" aria-expanded=\"true\">Hardware</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2extTabs1-25\" aria-expanded=\"false\">Software</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3extTabs1-25\" aria-expanded=\"false\">Data Backup</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4extTabs1-25\" aria-expanded=\"false\">Email Hosting</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5extTabs1-25\" aria-expanded=\"false\">Antivirus</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6extTabs1-25\" aria-expanded=\"false\">Cloud Storage</a></li>",
-          "title1": "Hardware",
-          "text1": "We provide assistance with the procurement, installation and management of all your hardware equipment requirements. We can provide you with full computer systems or new components to replace old ones. Hardware varies and can be anything that is used to create an IT system or network.",
-          "title2": "Software",
-          "text2": "We provide assistance with the procurement, installation, set-up and licencing of all your software requirements. For various professions there is specific software that can help a business to function. ",
-          "title3": "Data Backup",
-          "text3": "Backup of all your data to a secure offsite storage server. In the event of a disaster that your data will be safe, secure and accessible from anywhere with an internet connection.",
-          "title4": "Email",
+          "title": "Products",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#extAccordion2-2g\" data-core=\"\" href=\"#collapseOneextAccordion2-2g\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Hardware</a>",
+          "text1": "<p>We provide assistance with the procurement, installation and management of all your hardware equipment requirements. We can provide you with full computer systems or new components to replace old ones. Hardware varies and can be anything that is used to create an IT system or network.</p>",
+          "title2": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#extAccordion2-2g\" data-core=\"\" href=\"#collapseTwoextAccordion2-2g\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Software</a>",
+          "text2": "<p>We provide assistance with the procurement, installation, set-up and licencing of all your software requirements. For various professions there is specific software that can help a business to function.&nbsp;</p>",
+          "title3": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#extAccordion2-2g\" data-core=\"\" href=\"#collapseThreeextAccordion2-2g\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Data Backup</a>",
+          "text3": "<p>Backup of all your data to a secure offsite storage server. In the event of a disaster that your data will be safe, secure and accessible from anywhere with an internet connection.</p>",
+          "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#extAccordion2-2g\" data-core=\"\" href=\"#collapseFourextAccordion2-2g\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Email Hosting</a>",
           "text4": "A secure, fully backed-up Cloud-based Microsoft Exchange mailbox, with 50GB of storage as standard, which allows users to synchronise and access email “on the go” from devices such as smartphones, tablets, laptops and desktops.",
-          "title5": "Antivirus",
-          "text5": "We provide protection against the latest threats and we keep our processes and tools regularly updated to ensure your systems remain protected against new potential risks.",
-          "title6": "Cloud Storage",
-          "text6": "An online storage solution for your data and files. A copy of your data is stored in centralised unit which is synced between your desktop PC’s, laptops or mobile devices (including Macs) and is accessible from anywhere you have an internet connection."
+          "title5": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#extAccordion2-2g\" data-core=\"\" href=\"#collapseFiveextAccordion2-2g\" aria-expanded=\"true\" aria-controls=\"collapseFive\">Antivirus</a>",
+          "text5": "<p>We provide protection against the latest threats and we keep our processes and tools regularly updated to ensure your systems remain protected against new potential risks.</p>",
+          "title6": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#extAccordion2-2g\" data-core=\"\" href=\"#collapseSixextAccordion2-2g\" aria-expanded=\"true\" aria-controls=\"collapseSix\">Cloud Storage</a>",
+          "text6": "<p>An online storage solution for your data and files. A copy of your data is stored in centralised unit which is synced between your desktop PC’s, laptops or mobile devices (including Macs) and is accessible from anywhere you have an internet connection.</p>",
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/img-extaccordion2.jpg"
+            },
+            "video": {
+              "active": false,
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          }
         },
         {
           "_tags": [
@@ -782,6 +899,11 @@
             "Extension"
           ],
           "_name": "extForm4",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "extForm4-15",
           "_params": {
             "parallax": false,
@@ -841,12 +963,7 @@
               }
             }
           },
-          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SEND MESSAGE</a>",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SEND MESSAGE</a>"
         },
         {
           "_tags": [
