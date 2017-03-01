@@ -727,13 +727,16 @@ h6,
   content: "%";
 }
 #testimonials1-1q .card-block P {
-  color: #28324e;
+  color: #000000;
 }
 #testimonials1-1q .card-block DIV {
-  color: #28324e;
+  color: #000000;
 }
 #testimonials1-1q .card-block B {
-  color: #28324e;
+  color: #000000;
+}
+#testimonials1-1q .card-footer > div {
+  color: #000000;
 }
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
