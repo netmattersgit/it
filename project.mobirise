@@ -41,23 +41,6 @@
       },
       "components": [
         {
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#fff"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#ffffff"
-            },
-            ".feature-subtitle": {
-              "color": "#ffffff"
-            },
-            "DIV": {
-              "font-size": "25px"
-            },
-            "P": {
-              "font-size": "15px"
-            }
-          },
           "media3": {
             "iconFont": {
               "active": true,
@@ -176,7 +159,12 @@
           },
           "feature_title5": "Competitive Pricing",
           "feature_subtitle5": "",
-          "feature_text5": "Our rates are highly competitve, and we even source what you need at cost-price."
+          "feature_text5": "Our rates are highly competitve, and we even source what you need at cost-price.",
+          "_customCSS": ".mbr-section-title {\n\tcolor: #fff;\n}\n.mbr-section-subtitle {\n\tcolor: #ffffff;\n}\n.feature-subtitle {\n\tcolor: #ffffff;\n}\nDIV {\n\tfont-size: 25px;\n}\nP {\n\tfont-size: 15px;\n}\n",
+          "_customHTML": "<section class=\"mbr-cards features6 icons mbr-section mbr-parallax-background mbr-after-navbar\" style=\"background-image: url(@PROJECT_PATH@/assets/images/it-room-2000x1500.jpg); padding-top: 160px; padding-bottom: 160px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.75; background-color: rgb(21, 21, 21);\">\n    </div>\n\n    <div class=\"mbr-section mbr-section-nopadding\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 text-xs-center\">\n\n                    <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"31\">Professional IT Support</h3>\n\n                    <small class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"32\">Providing IT Support services, solutions and packages throughout Norfolk.<br>Offering comprehensive assistance when you need it most.<br><strong>We keep your business running.</strong><br></small>\n\n                </div>\n            </div>\n        </div>\n    </div>\n\n\n    <div class=\"icon-features\">\n        <div class=\"features6-container container\">\n            <div class=\"features-left col-xl-6\">\n\n                <div class=\"features-box\">\n                    <div class=\"content\">\n\n                        <div class=\"feature-title mbr-editable-content\" code-editable-id=\"33\">Problems Solved Fast</div>\n\n                        <small class=\"feature-subtitle mbr-editable-content\" code-editable-id=\"34\"></small>\n\n                        <p class=\"description mbr-editable-content\" code-editable-id=\"35\">Because we undestand just how important<br>your business is to you, we act swiftly. </p>\n\n                    </div>\n\n                    <div class=\"icon-right\"><span class=\"mbri-clock mbr-iconfont-features6\" style=\"color: rgb(255, 255, 255);\"></span></div>\n\n                </div>\n\n                <div class=\"features-box last\">\n                    <div class=\"content\">\n\n                        <div class=\"feature-title mbr-editable-content\" code-editable-id=\"36\">Large Team of Experts</div>\n\n                        <small class=\"feature-subtitle mbr-editable-content\" code-editable-id=\"37\"></small>\n\n                        <p class=\"description mbr-editable-content\" code-editable-id=\"38\">We have a large team of highly qualified experts,<br>ready to take on you IT challenges.</p>\n\n                    </div>\n                    <div class=\"icon-right\"><span class=\"icon54-v2-group-1 mbr-iconfont-features6\" style=\"color: rgb(255, 255, 255);\"></span></div>\n\n                </div>\n\n            </div>\n\n\n            <div class=\"features-right col-xl-6\">\n\n                <div class=\"features-box\">\n\n                    <div class=\"icon-left\"><span class=\"mbri-edit mbr-iconfont-features6\" style=\"color: rgb(255, 255, 255);\"></span></div>\n\n                    <div class=\"content\">\n\n                        <div class=\"feature-title mbr-editable-content\" code-editable-id=\"39\">No Tie Ins</div>\n\n                        <small class=\"feature-subtitle mbr-editable-content\" code-editable-id=\"40\"></small>\n\n                        <p class=\"description mbr-editable-content\" code-editable-id=\"41\">There are no long term contracts, so you <br>only&nbsp;pay for the time you need our help.</p>\n\n                    </div>\n                </div>\n\n                <div class=\"features-box last\">\n\n                    <div class=\"icon-left\"><span class=\"icon54-tag-1 mbr-iconfont-features6\" style=\"color: rgb(255, 255, 255);\"></span></div>\n\n                    <div class=\"content\">\n\n                        <div class=\"feature-title mbr-editable-content\" code-editable-id=\"42\">Competitive Pricing</div>\n\n                        <small class=\"feature-subtitle mbr-editable-content\" code-editable-id=\"43\"></small>\n\n                        <p class=\"description mbr-editable-content\" code-editable-id=\"44\">Our rates are highly competitve, and we even <br>source what you need at cost-price.</p>\n\n                    </div>\n                </div>\n\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true
         },
         {
           "_tags": [
