@@ -809,6 +809,9 @@ h6,
 #header3-2m .mbr-section-subtitle {
   text-align: center;
 }
-#extFeatures6-2i .card-img {
+#extFeatures6-31 .card-img {
+  background-color: #387bc1 !important;
+}
+#extFeatures6-32 .card-img {
   background-color: #387bc1 !important;
 }

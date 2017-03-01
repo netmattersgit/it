@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 108,
+    "uniqCompNum": 111,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "",
@@ -189,7 +189,7 @@
             "paddingBottom": "1",
             "bgColor": "#202022"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-down-8 mbr-iconfont mbr-iconfont-btn\"></span>See Our Process</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#header3-1i\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-down-8 mbr-iconfont mbr-iconfont-btn\"></span>See Our Process</a> "
         },
         {
           "_styles": {
@@ -208,7 +208,7 @@
             "bgColor": "#ffffff",
             "showMeta": true
           },
-          "title": "Our Process is Simple &amp; Effective",
+          "title": "Our Strategic Process is Simple &amp; Effective",
           "meta": "From the very beginning, we take your business needs and requirements into account."
         },
         {
@@ -263,7 +263,7 @@
             }
           },
           "title1": "Assess",
-          "text1": "<span style=\"font-style: normal;\">We take a detailed&nbsp;<b>look at your current IT infrastructure </b>- detailing everything from hardware and software to data backup and antivirus. With this information we <b>create a plan</b> to fix weakensses and strengthen where needed.</span>",
+          "text1": "<span style=\"font-style: normal;\">We take a detailed&nbsp;<b>look at your current IT infrastructure </b>- detailing everything from hardware and software to data backup and antivirus. With this information we <b>create a strategic plan</b> to address weaknesses and issues.</span>",
           "date2": "2 Ferbuary 2016",
           "title2": "Implement",
           "text2": "<b>Once we have a detailed plan of how to enhance your IT systems and infrastrcutre - our large team of experts get to work to implement this plan. Working closely with you we install, update and upgrade your IT systems.</b>",
@@ -618,7 +618,7 @@
             "paddingBottom": 1,
             "bgColor": "#e9e9e9"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#header3-2m\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-down-8 mbr-iconfont mbr-iconfont-btn\"></span>See Our Services</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#buttons1-2k\" data-toolbar=\"-mbrBtnMove\"><span class=\"icon54-down-8 mbr-iconfont mbr-iconfont-btn\"></span>See Our Services</a> "
         },
         {
           "_styles": {
@@ -725,8 +725,8 @@
           "_name": "header3",
           "_anchor": "header3-2m",
           "_params": {
-            "paddingTop": "7",
-            "paddingBottom": "0",
+            "paddingTop": "6",
+            "paddingBottom": "3",
             "bgColor": "#fff",
             "showMeta": false
           },
@@ -744,11 +744,11 @@
               "background-color": "@primaryColor !important"
             }
           },
-          "_anchor": "extFeatures6-2i",
+          "_anchor": "extFeatures6-31",
           "_params": {
             "iconsColorBG": "@primaryColor",
             "paddingTop": "0",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/extFeatures3/images/img_extFeatures6_bg.jpg",
@@ -765,52 +765,55 @@
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": true,
+            "showButtons": false,
             "showImages": true
           },
-          "title1": "Support",
+          "title1": "Hardware",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "We Provide ongoing support and assistance for all your IT infrastructure problems. We're always available to help keep your business running. &nbsp;",
+          "caption1": "We provide assistance with the installation and management of all your hardware requirements. We can provide you with full computer systems or new components to replace old ones.&nbsp;",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media1": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "layers",
+              "linkInNewWindow": false,
+              "name": "devices",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "#ffffff",
-              "family": "et-line"
+              "color": "#ffffff"
             }
           },
-          "title2": "Solutions",
+          "title2": "Software",
           "subtitle2": "One of Bootstrap 4s big points",
-          "caption2": "Our foward thinking and innovative IT Support team are always looking to not only solve your problems - but to pioneer solutions for the future.<br>",
+          "caption2": "We provide assistance with the procurement, installation, set-up and licencing of all your software requirements. For various professions there is specific software that can help a business to function. ",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "expand",
+              "linkInNewWindow": false,
+              "name": "windows",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "#ffffff",
-              "family": "et-line"
+              "color": "#ffffff"
             }
           },
-          "title3": "Strategy",
+          "title3": "Data Backup",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "We can give advice on long-term planning, budgeting and project management. All with the aim of streamlining your IT infrastructure.",
+          "caption3": "Backup of all your data to a secure offsite storage server. In the event of a disaster that your data will be safe, secure and accessible from anywhere with an internet connection.",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "pencil",
+              "linkInNewWindow": false,
+              "name": "opened-folder",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "#ffffff",
-              "family": "et-line"
+              "color": "#ffffff"
             }
           },
           "title4": "Unlimited Sites",
@@ -834,58 +837,97 @@
           "_tags": [
             "Extension"
           ],
-          "_name": "extAccordion2",
-          "_anchor": "extAccordion2-2g",
+          "_name": "extFeatures6",
+          "_styles": {
+            ".card-img": {
+              "background-color": "@primaryColor !important"
+            }
+          },
+          "_anchor": "extFeatures6-32",
           "_params": {
-            "collapseAll": true,
-            "tabs": "6",
-            "imageSize": "49",
+            "iconsColorBG": "@primaryColor",
             "paddingTop": "0",
             "paddingBottom": "0",
-            "parallax": false,
             "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extAccordion1_bg.jpg",
+            "parallax": true,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/extFeatures3/images/img_extFeatures6_bg.jpg",
             "bgColor": "#fff",
             "bgColorRadio": true,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#151515",
-            "showTitle": true
+            "overlayOpacity": 0.6,
+            "overlayColor": "#222",
+            "columns": 3,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false,
+            "showImages": true
           },
-          "title": "Our Products",
-          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#extAccordion2-2g\" data-core=\"\" href=\"#collapseOneextAccordion2-2g\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Hardware</a>",
-          "text1": "<p>We provide assistance with the procurement, installation and management of all your hardware equipment requirements. We can provide you with full computer systems or new components to replace old ones. Hardware varies and can be anything that is used to create an IT system or network.</p>",
-          "title2": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#extAccordion2-2g\" data-core=\"\" href=\"#collapseTwoextAccordion2-2g\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Software</a>",
-          "text2": "<p>We provide assistance with the procurement, installation, set-up and licencing of all your software requirements. For various professions there is specific software that can help a business to function.&nbsp;</p>",
-          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#extAccordion2-2g\" data-core=\"\" href=\"#collapseThreeextAccordion2-2g\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Data Backup</a>",
-          "text3": "<p>Backup of all your data to a secure offsite storage server. In the event of a disaster that your data will be safe, secure and accessible from anywhere with an internet connection.</p>",
-          "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#extAccordion2-2g\" data-core=\"\" href=\"#collapseFourextAccordion2-2g\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Email Hosting</a>",
-          "text4": "A secure, fully backed-up Cloud-based Microsoft Exchange mailbox, with 50GB of storage as standard, which allows users to synchronise and access email “on the go” from devices such as smartphones, tablets, laptops and desktops.",
-          "title5": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#extAccordion2-2g\" data-core=\"\" href=\"#collapseFiveextAccordion2-2g\" aria-expanded=\"true\" aria-controls=\"collapseFive\">Antivirus</a>",
-          "text5": "<p>We provide protection against the latest threats and we keep our processes and tools regularly updated to ensure your systems remain protected against new potential risks.</p>",
-          "title6": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#extAccordion2-2g\" data-core=\"\" href=\"#collapseSixextAccordion2-2g\" aria-expanded=\"true\" aria-controls=\"collapseSix\">Cloud Storage</a>",
-          "text6": "<p>An online storage solution for your data and files. A copy of your data is stored in centralised unit which is synced between your desktop PC’s, laptops or mobile devices (including Macs) and is accessible from anywhere you have an internet connection.</p>",
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/img-extaccordion2.jpg"
-            },
-            "video": {
-              "active": false,
-              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
+          "title1": "Email Hosting",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "A secure, fully backed-up Cloud-based Microsoft Exchange mailbox, with 50GB of storage as standard, which allows users to synchronise and access email “on the go” from devices such as smartphones, tablets, laptops and desktops.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media1": {
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 250
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "letter",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "title2": "Antivirus",
+          "subtitle2": "One of Bootstrap 4s big points",
+          "caption2": "We provide protection against the latest threats and we keep our processes and tools regularly updated to ensure your systems remain protected against new potential risks.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "protect",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "title3": "Cloud Storage",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "An online storage solution for your data and files. A copy of your data is stored in centralised unit which is synced between your desktop PC’s, laptops or mobile devices (including Macs) and is accessible from anywhere you have an internet connection.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "cloud",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "compass",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "et-line"
             }
           }
         },
