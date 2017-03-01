@@ -94,7 +94,7 @@
             "paddingTop": "4",
             "paddingBottom": "4",
             "bgImageRadio": true,
-            "parallax": false,
+            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/it-room-2000x1500.jpg",
             "bgColor": "#303030",
             "bgColorRadio": false,
@@ -109,7 +109,7 @@
             "showSubtitle": true
           },
           "title": "Professional IT Support",
-          "subtitle": "Providing IT Support services, solutions and packages throught Norfolk.<br>Offering comprehensive assistance when you need it most.<br><b>We keep your business running.</b><br>",
+          "subtitle": "Providing IT Support services, solutions and packages throughout Norfolk.<br>Offering comprehensive assistance when you need it most.<br><b>We keep your business running.</b><br>",
           "feature_title1": "Problems Solved Fast",
           "feature_subtitle1": "",
           "feature_text1": "Because we undestand just how important your business is to you, we act swiftly. ",
@@ -141,7 +141,7 @@
           "media": {
             "image": {
               "class": "central-image",
-              "src": "@PROJECT_PATH@/assets/images/laptop-600x381.png",
+              "src": "@PROJECT_PATH@/assets/images/hublot-classic-fusion-ultra-thin-skeleton-titaniumhgtfdfsxtyfdh-320x320.png",
               "active": true,
               "link": "",
               "alt": "",
