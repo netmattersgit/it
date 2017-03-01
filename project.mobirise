@@ -1020,7 +1020,12 @@
               }
             }
           },
-          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SEND MESSAGE</a>"
+          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SEND MESSAGE</a>",
+          "_styles": {
+            "H2": {
+              "color": "#000000"
+            }
+          }
         },
         {
           "alias": "mobirise3-blocks/components",
